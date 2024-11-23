@@ -7,8 +7,8 @@ How to run :
 note: min python 3.12.4
 
 ```bash
-git clone .......
-cd ......
+git clone git@github.com:Lucifer07/be-ecommerce.git
+cd be-ecommerce
 # create youre env
 nano .env
 #linux/mac
