@@ -10,19 +10,20 @@
         "src": "build.sh",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "ui/staticfiles"
+          "distDir": "staticfiles" 
         }
       }
     ],
     "routes": [
       {
         "src": "/static/(.*)",
-        "dest": "/static/$1"
+        "dest": "/static/$1" 
       },
       {
         "src": "/(.*)",
-        "dest": "ecommerce/wsgi.py"
+        "dest": "ecommerce/wsgi.py" 
       }
     ],
-    "outputDirectory": "ui/staticfiles"
+    "outputDirectory": "staticfiles" 
   }
+  
