@@ -33,7 +33,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='').split(',')
 
 # Application definition
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT =os.path.join('/tmp', 'media')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
